@@ -1,0 +1,330 @@
+<!doctype html>
+<html>
+<head>
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/tema5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<!-- <scrip src="js/acciones"></scrip>
+<script src="phonegap.js"></script> <!--como el aire*/-->
+
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+<style>
+ h2
+ {
+	 color: #063;
+ }
+ h3
+ {
+	 color: #090;
+ }
+ p
+ { 
+      color: #090;
+ }
+ li
+ {
+	 color: #fff;
+ }
+</style>
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/ambiental2.jpg','imagenes/hidraulica2.jpg','imagenes/suelo2.jpg','imagenes/contaminacion3.jpg','imagenes/si.jpg')">
+<div data-role="page" id="Principal" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    <h1>Contaminacion </h1>
+  </div>
+  
+  <div data-role="main" class="ui-content">
+    <div data-role="collapsible" data-content-theme="false">
+    <h1>INFORMACION</h1>
+    <div>
+    <p></p>
+    <br>
+    </div>
+    <div>
+    <a href="http://parquesalegres.org/biblioteca/blog/que-es-la-contaminacion/?gclid=EAIaIQobChMIi46d6b3a2gIVkobACh1C4wnQEAAYASAAEgKjyvD_BwE" target="_self"> Ir a la página en internet relacionada al tema </a>
+    <br>
+     <img src="imagenes/conciencia.jpg" width="50%" height="50%">
+     </div>
+    </div>
+  </div>
+     <div>
+      <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+    <li class="ui-first-child ui-last-child">
+    <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+    <h2>Definicion</h2>
+    <p>¿Que es la contaminacion? </p>
+    </a>
+    </li>
+    <li class="ui-first-child ui-last-child">
+    <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+    <h2>Tipos de contaminacion</h2>
+    <p> (Tipos de contaminacion existentes)  </p>
+    </a>
+    </li>
+    <li class="ui-first-child ui-last-child">
+    <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+    <h2>Consecuencias de la contaminacion</h2>
+    <p>(se muestran las consecuencias de la contaminacion)</p>
+    </a>
+    </li>
+    <li class="ui-first-child ui-last-child">
+    <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+    <h2>Reciclaje</h2>
+    <p>(Tipos de reciclaje)   </p>
+    </a>
+    </li>
+   <li class="ui-first-child ui-last-child">
+    <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+    <h2>Medidas para emplear y combatir la contaminación en tu comunidad</h2>
+    <p> ( 5 Medidas que puedes emplear para combatir la contaminación en tu comunidad )     </p>
+    </a>
+    </li>
+    </ul>
+    </div> 
+    
+    <div data-role="main" class="ui-content">
+    <div data-role="collapsible" data-content-theme="false">
+    <h1>INFORMACION</h1>
+    <p></p>
+     
+    <img src="imagenes/gracias.gif">
+         <br>
+     <a href="https://www.inspiraction.org/cambio-climatico/contaminacion" target="_self"> leer mas sobre el tema relacionado </a>
+
+    </div>
+    </div>
+     
+    <div data-role="footer" align="center" data theme="a" data-position="fixed">
+    <div>
+     <img src="imagenes/persona_azul.png" width="46" height="46">
+     </div>
+     <div>
+      <h4>Aplicacion Cuatro</h4>
+      <h4>Emmanuel Rios Flores</h4>
+      </div>
+  </div>
+</div>
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+        <h1>DEFINICION</h1>
+       </div> 
+       <div data role="content" align="center">
+       <div>
+        <h2>¿Qué es la contaminación?</h2>
+        <p> Según la Real Academia Española “contaminación” es la acción y efecto de contaminar. Este último significa “alterar nocivamente la pureza o las condiciones normales de una cosa o un medio por agentes químicos o físicos”.
+
+El medio puede ser un ecosistema, un lugar o un ser vivo y el contaminante cualquier sustancia química o energética. Por ejemplo, derramar en un parque (medio) unos litros de detergente (sustancia). En general, el resultado de esta alteración es negativa y usualmente es producida por la actividad humana.</p>
+
+        <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image15','','imagenes/contaminacion3.jpg',1)"><img src="imagenes/contaminacion2.jpg" width="60%" height="60%" id="Image15"></a>
+        
+         <h2>Conclusion</h2>
+        <p>Hoy en día la contaminación trae consigo cambios climáticos hostiles y extinción de especies. El simple hecho de utilizar menos tu automóvil o tirar correctamente el aceite con el que cocinas puede favorecer al planeta. Mantener tu ciudad libre de contaminantes es obligación de todos.</p>  
+        <img src="imagenes/panta.jpg" width="50%" height="45%">     
+        </div>
+       </div>    
+        <div data-role="footer"  align="center" data-theme="a" data-position="fixed">
+        <div>
+         <img src="imagenes/persona_azul.png" width="46" height="46">
+       </div>
+      <h4>Aplicacion Cuatro,ERF</h4>
+       </div>
+</div>
+       
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+     <h1>TIPOS DE CONTAMINACION</h1>
+     
+      </div> 
+      <div data role="content" align="center">
+       <div>
+       
+        <h2>ATMOSFÉRICA O AMBIENTAL</h2>
+        <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image12','','imagenes/ambiental2.jpg',1)"><img src="imagenes/ambiental.jpeg" width="60%" height="60%" id="Image12"></a>
+<p>El tipo de contaminación ambiental comprende la liberación de sustancias a la atmósfera, que altera su composición. Es el resultado de la expulsión de gases como monóxido de carbono al aire, producido por la quema de combustibles. Cuando las características del contaminante afectan el equilibrio del planeta, es una contaminación global.</p>
+     
+     <h2>HÍDRICA O DEL AGUA</h2>
+     <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image13','','imagenes/hidraulica2.jpg',1)"><img src="imagenes/hidraulica.jpg" width="60%" height="60%" id="Image13"></a>
+<p> Además está la contaminación hídrica o del agua, donde el medio afectado son los ríos y mares. La existencia de desechos en el agua es un foco de infecciones y enfermedades para los seres vivos. Los derrames de sustancias como aceite y petróleo, así como residuos domésticos son su principal causa.      </p>
+     
+     <h2>SUELO</h2>
+     <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image14','','imagenes/suelo2.jpg',1)"><img src="imagenes/suelo.jpg" width="60%" height="60%" id="Image14"></a>
+<p> Este tipo entra en contacto directo con las personas al igual que las anteriores. Ocurre cuando productos como pesticidas y metales pesados se filtran a través del suelo, contaminándolo.</p>
+        </div>
+        </div>    
+        <div data-role="footer"  align="center" data-theme="a" data-position="fixed">
+        <div>
+         <img src="imagenes/persona_azul.png" width="47" height="47">
+       </div>
+      <h4>Aplicacion Cuatro,ERF</h4>
+       </div>
+       </div>
+       
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+     <h1>CONSECUENCIAS</h1>
+      </div> 
+      <div data role="content" align="center">
+       <div>
+        <h2>        </h2>
+        <p> La contaminación es una realidad en nuestra vida y es que, por desgracia, cada vez oímos más voces sobre ella. Muchos son los países que están buscando una buena solución a este problema global, aunque parece que les cuesta mucho llegar a un acuerdo que satisfaga a todos los actores del escenarios. De mientras, las consecuencias se siguen viendo, empeoran y más se destruyen los hábitats naturales que un día hicieron de este planeta un planeta verde y azul de envidiar por muchos.</p>
+        <img src="imagenes/ecologia.jpg">
+        <ul>
+         <li>Problemas para la salud: la contaminación hace que las personas estemos cada vez más expuestas a padecer problemas cardiovasculares, con el grave peligro que esto entraña para nuestra salud y vida.</li>
+         <br>
+         <li>Debilitamiento de la capa de ozono: la capa de ozono es la que nos protege de los rayos del Sol, los cuales pueden llegar a ser mortíferos sin esta capa. la consecuencia de este debilitamiento es que cada vez nos protege menos y, por ende, cada vez tenemos una mayor temperatura en el planeta.</li>
+         <br>
+         <br>
+         <li>La contaminación afecta al suelo y al agua: la contaminación al medio ambiente afecta al agua y al suelo, lo que hace que cada vez haya más especies en peligro de extinción. </li>
+         <br>
+         <li>La contaminación afecta al clima: seguro que ya te has dado cuenta que los inviernos pueden ser mucho más fríos o que los veranos son mucho más calurosos, a la vez </li>
+         <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/causas.jpg" alt="causas" title="causas" id="wows1_0"/></li>
+		<li><img src="data1/images/causas1.jpg" alt="causas1" title="causas1" id="wows1_1"/></li>
+		<li><img src="data1/images/causas2.jpg" alt="causas2" title="causas2" id="wows1_2"/></li>
+		<li><img src="data1/images/causas3.jpg" alt="causas3" title="causas3" id="wows1_3"/></li>
+		<li><img src="data1/images/causas4.jpg" alt="causas4" title="causas4" id="wows1_4"/></li>
+		<li><img src="data1/images/causas5.jpg" alt="causas5" title="causas5" id="wows1_5"/></li>
+		<li><img src="data1/images/causas6.jpg" alt="causas6" title="causas6" id="wows1_6"/></li>
+		<li><a href="http://wowslider.net"><img src="data1/images/causas7.jpg" alt="jquery carousel" title="causas7" id="wows1_7"/></a></li>
+		<li><img src="data1/images/recicla.jpg" alt="recicla" title="recicla" id="wows1_8"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="causas"><span><img src="data1/tooltips/causas.jpg" alt="causas"/>1</span></a>
+		<a href="#" title="causas1"><span><img src="data1/tooltips/causas1.jpg" alt="causas1"/>2</span></a>
+		<a href="#" title="causas2"><span><img src="data1/tooltips/causas2.jpg" alt="causas2"/>3</span></a>
+		<a href="#" title="causas3"><span><img src="data1/tooltips/causas3.jpg" alt="causas3"/>4</span></a>
+		<a href="#" title="causas4"><span><img src="data1/tooltips/causas4.jpg" alt="causas4"/>5</span></a>
+		<a href="#" title="causas5"><span><img src="data1/tooltips/causas5.jpg" alt="causas5"/>6</span></a>
+		<a href="#" title="causas6"><span><img src="data1/tooltips/causas6.jpg" alt="causas6"/>7</span></a>
+		<a href="#" title="causas7"><span><img src="data1/tooltips/causas7.jpg" alt="causas7"/>8</span></a>
+		<a href="#" title="recicla"><span><img src="data1/tooltips/recicla.jpg" alt="recicla"/>9</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com/vi">cssslider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+         
+        </div>
+        </div>    
+        <div data-role="footer"  align="center" data-theme="a" data-position="fixed">
+        <div>
+         <img src="imagenes/persona_azul.png" width="46" height="46">
+       </div>
+      <h4>Aplicacion Cuatro,ERF</h4>
+       </div>
+       </div>
+       
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+     <h1>RECICLAR</h1>
+      </div> 
+      <div data role="content" align="center">
+       <div>
+        <h3>  Regla de las "3R"    </h3>
+        <h3>Reducir:</h3><P> Acciones para reducir la producción de objetos susceptibles de convertirse en residuos, con medidas de compra racional, uso adecuado de los productos, compra de productos sostenibles.</P>
+        <br>
+        <h3>Reciclar:</h3> <P>El conjunto de operaciones de recogida y tratamiento de residuos que permiten reintroducirlos en un ciclo de vida. Se utiliza la separación de residuos en origen para facilitar los canales adecuados.</P>
+        <br>
+        <h3>Reutilizar:</h3><P>Acciones que permiten el volver a usar un determinado producto para darle una segunda vida, con el mismo uso u otro diferente. Medidas encaminadas a la reparación de productos y alargar su vida útil.</P>
+
+        <img src="imagenes/archivos/recicla.jpg" width="50%" height="40%">
+        <h2>Tipos De Reciclaje</h2>
+       <ol>
+          <li>Reciclaje de metales</li>
+          <li>Reciclaje de aluminio</li>
+          <li>Reciclaje del vidrio</li>
+          <li>Reciclaje de pilas y baterías</li>
+         <li>Reciclaje de cemento</li>
+         <li>Reciclaje de papel</li>
+         <li>Reciclaje de cartón</li>
+         <li>Reciclaje de plástico</li>
+          <li>Reciclaje de tetra-pak</li>
+        </div>
+        </div>    
+        <div data-role="footer"  align="center" data-theme="a" data-position="fixed">
+        <div>
+         <img src="imagenes/persona_azul.png" width="46" height="46">
+       </div>
+      <h4>Aplicacion Cuatro,ERF</h4>
+       </div>
+       </div>
+       
+       <div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+     <h1>MEDIDAS PREVENCION</h1>
+      </div> 
+      <div data role="content" align="center">
+       <div>
+        <h2> Medidas by Emmanuel  </h2>
+        
+        <h4>1.Crear conciencia ciudadana</h4><img src="imagenes/recapacita.jpg" width="60%" height="60%">
+        
+        <h4>2.Usar la regla de las tres "RRR"</h4><img src="imagenes/rrr.jpg" width="60%" height="60%">
+        <h4>3.No tirar basura en las calles</h4>
+        <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image35','','imagenes/si.jpg',1)"><img src="imagenes/no.jpg" width="60%" height="60%" id="Image35"></a>
+        <h4>4.No talar arboles </h4><img src="imagenes/arbolitos.jpg" width="60%" height="60%">
+        
+        <h4>5.No usar aerosoles ni pesticidas</h4><img src="imagenes/aerosoles.jpg" width="60%" height="60%">
+        
+        </div>
+        
+         <div data-role="main" class="ui-content">
+    <div data-role="collapsible" data-content-theme="false">
+    <h1>RESULTADO</h1>
+    <div>
+      <img src="imagenes/basura1.jpg" width="60%" height="60%">
+      <img src="imagenes/basura2.jpg" width="60%" height="60%">
+      <img src="imagenes/basura3.jpg" width="60%" height="60%">
+      <img src="imagenes/basura4.jpg" width="60%" height="60%">
+      <img src="imagenes/basura5.jpg" width="60%" height="60%">
+    <br>
+    </div>
+    
+       <div data-role="footer"  align="center" data-theme="a" data-position="fixed">
+        <div>
+         <img src="imagenes/persona_azul.png" width="46" height="46">
+       </div>
+      <h4>Aplicacion Cuatro,ERF</h4>
+       </div>
+</div>
+                 
+</body>
+</html>
